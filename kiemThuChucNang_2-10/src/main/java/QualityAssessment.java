@@ -15,7 +15,7 @@ public class QualityAssessment {
                 result = "Khá";
             }
         }
-        else if(5.0 < x && x < 10.0) {
+        else if(5.0 < x && x <= 10.0) { // sai o day ( <10 )
             if(3.5 <= y && y < 6.5) {
                 result = "Khá";
             }
